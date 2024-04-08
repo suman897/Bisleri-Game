@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisleri Water Bottle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+      <div id="bottle">
+        <img id="bottle-outline" src="bottle2.png" alt="Bottle Outline">
+      </div>
+      <div id="bottle-fill">
+        <div id="fill"></div>
+      </div>
+      <div id="content">
+          <p id="top-text">Welcome</p>
+          <p id="middle-text">Get ready to run</p>
+          <input type="text" placeholder="Enter your name" id="userName">
+          <button id="start-btn" onclick="startGame()">Start</button>         
+      </div>
+
+      <div id="countdown1" class="element">
+        <span id="number1">3</span>
+      </div>
+
+      <div id="stopwatchContainer">
+        <img id="stopwatch" src="stopwatch.png" alt="stopwatch.png">
+        <p id="timer"><span id="countdown">30</span>s</p>
+      </div>
+
+      <div id="winnerContainer">
+        <div id="greetingMessage">Congragulations!! You won</div>
+        <img id="bisleriWrapper" src="bisleriWrapper.jpeg" alt="bisleriWrapper">
+      </div>
+ </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

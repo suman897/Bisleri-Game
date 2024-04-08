@@ -1,0 +1,205 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 720px;
+    width:500px;
+    z-index: -1;
+}
+
+#bottle {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#bottle-outline {
+    width: 250px;
+    z-index: 1; /* Ensure the bottle outline appears above the water fill */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+#top-text {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    z-index: 2;
+    color:#269d8c;
+    visibility: inherit;
+}
+
+#middle-text {
+    font-size: 25px;
+    z-index: 2;
+    color:#269d8c;
+    visibility: inherit;
+    margin-top: 2px;   
+}
+
+#userName{
+    position: relative;
+    top: 45px;
+    border: 1px solid #269d8c;
+    border-radius: 5px;
+    color: #269d8c;
+    visibility: inherit;
+    text-align: left;
+    margin-bottom: 7px;
+    text-align: center;
+    height: 23px;
+    max-width: 150px;
+}
+
+#userName:hover{
+    transform: scale(1.05);
+}
+#start-btn {
+    display: block;
+    position:relative;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */ 
+    left:80px;
+    margin-top: 50px;
+    z-index: 2;
+    background-color:#269d8c;
+    color: white;
+    border-radius: 5px;
+    visibility: inherit;
+}
+
+#start-btn:hover{
+    transform: scale(1.1);
+}
+
+#countdown1 {                        /* 3...2...1...Start Countdown */
+    position: relative;
+    left:150px;
+    top: 330px;
+    font-family: Arial, sans-serif;
+    font-size: 72px;
+    color: #269d8c;
+    text-align: center;
+    height: 80px;
+    width: 200px;
+    visibility: hidden;
+}
+
+.element {
+    animation: scaleAndFade 1s ease forwards;
+}
+@keyframes scaleAndFade {
+    0% {
+        transform: scale(1); /* Initial scale */
+        opacity: 1; /* Initial opacity */
+    }
+    50% {
+        
+        opacity: 0.8; /* Maintain opacity */
+    }
+    70%{
+        transform: scale(1.5); /* Scale up to 1.5 times */
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.5;
+    }
+    90%{
+        opacity: 0.3;
+    }
+    95%{
+        opacity: 0.1;
+    }
+    100% {
+        transform: scale(2); /* Scale up to 2 times */
+        opacity: 0; /* Fade out completely */
+    }
+}
+
+#fill {
+    z-index: 0;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 25px;
+    position: absolute; 
+    margin-top: 5px; 
+    bottom: 70px;
+    left: 150px;
+    
+}
+
+#timer {
+    position: absolute; 
+    margin: 0px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    z-index: 2;
+    visibility: inherit;
+    color: #269d8c;
+    font-weight: 500;
+}
+
+#stopwatchContainer {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    visibility: hidden; 
+}
+
+#stopwatch {
+    position: relative;
+    width: inherit;
+    visibility: inherit;
+}
+
+#winnerContainer{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    overflow: hidden;
+}
+#greetingMessage{
+    text-align: center;
+    position:relative; 
+    top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    visibility: inherit;
+    color: #269d8c;
+}
+#bisleriWrapper{
+    width: 200px;
+    position: absolute;
+    top: 143px;
+    visibility: inherit;
+}
