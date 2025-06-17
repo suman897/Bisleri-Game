@@ -1,49 +1,97 @@
-# Bisleri Water Bottle Game
+---
 
-A fun browser-based game originally created for Bisleri, where users race against the clock to "fill" a Bisleri water bottle by running!
+# 🚰 Bisleri Water Bottle Challenge Game
 
-## Project Background
-
-This game was developed for Bisleri and integrated with load sensors to detect running motion. It was designed as an interactive experience for marathon runners at an expo event. As participants ran in place, the load sensors detected their motion and filled the virtual water bottle on the screen, making the game both engaging and physically interactive.
-
-## Features
-
-- Animated countdown before the game starts
-- Stopwatch timer with a 30-second limit
-- Interactive bottle fill mechanic using keyboard input (or load sensors in event setup)
-- Personalized greeting with your name on win/lose
-- Automatic page refresh after each round
-
-## How to Play
-
-1. Open `index.html` in your web browser.
-2. Enter your name in the input field.
-3. Click the **Start** button.
-4. Wait for the countdown to finish.
-5. Press any key repeatedly to fill the bottle before time runs out (or run in place if using load sensors).
-6. Win by filling the bottle to the top before the timer reaches zero!
-
-## Project Structure
-
-- [`index.html`](index.html): Main HTML file for the game UI.
-- [`styles.css`](styles.css): Styling for the game elements.
-- [`script.js`](script.js): Game logic and interactivity.
-- `bottle2.png`, `bisleriWrapper.jpeg`, `stopwatch.png`: Image assets for the game.
-
-## Customization
-
-- You can change the initial timer by modifying the `timeLeft` variable in [`script.js`](script.js).
-- Update images in the project folder to change the bottle or stopwatch appearance.
-
-## Requirements
-
-- Modern web browser (Chrome, Firefox, Edge, etc.)
-- No installation required.
-
-## License
-
-This project is for educational and personal use.
+**An interactive, browser-based fitness game built for Bisleri's exclusive activation at the TCS World 10K Bengaluru 2024 Marathon.**
+Designed to combine hydration awareness, physical activity, and fun, this game transforms warm-ups into a challenge of balance, rhythm, and agility!
 
 ---
 
-Enjoy the Bisleri Water Bottle Game!
+## 🎯 Project Purpose
+
+Created in collaboration with **Bisleri International Pvt Ltd**, this project was the centerpiece of a three-day pre-marathon warm-up event. It introduced an innovative twist to traditional warm-up routines by prioritizing **controlled leg movement** and **balance** over raw speed.
+
+Participants were encouraged to “fill” a digital water bottle by running or stepping in place — with **load sensors** detecting real-time motion and translating it into visible progress on-screen.
+
+---
+
+## 🔥 Key Features
+
+* ⏱️ Animated countdown before gameplay starts
+* 🕒 30-second in-game stopwatch
+* 🏃 Responsive bottle-filling mechanic via keyboard input or sensor integration
+* 🙌 Personalized win/lose message using player’s name
+* 🔁 Auto-refresh after each round for continuous play
+* ⚙️ Plug-and-play: Works seamlessly with or without hardware integration
+
+---
+
+## 🕹️ How to Play
+
+1. Open `index.html` in your browser.
+2. Enter your name to personalize the game.
+3. Click **Start** and wait for the countdown.
+4. Repeatedly press any key (or jog in place with sensors connected) to fill the bottle.
+5. Beat the clock by filling the bottle before time runs out!
+
+---
+
+## 🧩 Tech + Hardware Integration
+
+The game was initially designed to work with **load sensors** that detect running motion. During the live event, this created a **physically immersive** experience where participants interacted with a virtual Bisleri bottle through real-world movement.
+
+> 💡 **Pro Tip:** You can still simulate gameplay using your keyboard if you don’t have sensors.
+
+---
+
+## 🗂️ Project Structure
+
+| File                  | Description                           |
+| --------------------- | ------------------------------------- |
+| `index.html`          | Main interface for the game           |
+| `styles.css`          | Layout and visual design              |
+| `script.js`           | Core logic: timers, animations, input |
+| `bottle2.png`         | Water bottle graphic                  |
+| `bisleriWrapper.jpeg` | Event-themed background/wrapper image |
+| `stopwatch.png`       | Stopwatch visual for countdown        |
+
+---
+
+## 🛠️ Customization Options
+
+* 🔧 Change game duration via the `timeLeft` variable in `script.js`
+* 🖼️ Replace image assets with your own (e.g., different bottle designs)
+* 🎨 Tweak CSS for custom branding or color schemes
+
+---
+
+## 🖥️ Requirements
+
+* A modern web browser (Chrome, Firefox, Edge, etc.)
+* No installation or server setup required — just open and play!
+
+---
+
+## 📜 License
+
+This project is intended for **educational**, **event-based**, and **personal use only**.
+
+---
+
+## 🙌 Acknowledgments
+
+Special thanks to [Amit Dhasmana](https://www.linkedin.com/in/amit-dhasmana) for guidance and to **Bisleri International Pvt Ltd** for supporting innovation in community wellness through fitness technology.
+
+---
+
+## 📢 Live Event Post
+
+📌 [LinkedIn Post about the Bisleri Warm-Up Event](https://www.linkedin.com/posts/suman-parui-ab3613184_tcsworld10k-bengalurumarathon-bisleriwaterbottlechallenge-activity-7193551238687297537-XeWy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuEc2cB8sjUv8FfQtOjV24Wz5NopEwwRgc)
+
+---
+
+**Enjoy the challenge — and stay hydrated! 💧**
+
+---
+
+
