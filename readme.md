@@ -1,5 +1,3 @@
----
-
 # Bisleri Water Bottle Challenge Game
 
 **An interactive, browser-based fitness game built for Bisleri's exclusive activation at the TCS World 10K Bengaluru 2024 Marathon.**
@@ -80,7 +78,7 @@ This project is intended for **educational**, **event-based**, and **personal us
 
 ## 🙌 Acknowledgments
 
-Special thanks to [Amit Dhasmana](https://www.linkedin.com/in/amit-dhasmana) for guidance and to **Bisleri International Pvt Ltd** for supporting innovation in community wellness through fitness technology.
+Special thanks to [Amit Dhasmana](https://www.linkedin.com/in/amit-dhasmana) and to **Bisleri International Pvt Ltd** for supporting innovation in community wellness through fitness technology.
 
 ---
 
@@ -92,6 +90,6 @@ Special thanks to [Amit Dhasmana](https://www.linkedin.com/in/amit-dhasmana) for
 
 **Enjoy the challenge — and stay hydrated! 💧**
 
----
+
 
 
