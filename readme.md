@@ -12,6 +12,13 @@ Designed to combine hydration awareness, physical activity, and fun, this game t
 
 ---
 
+## 📢 Live Event Post
+
+📌 [LinkedIn Post about the Bisleri Warm-Up Event](https://www.linkedin.com/posts/suman-parui-ab3613184_tcsworld10k-bengalurumarathon-bisleriwaterbottlechallenge-activity-7193551238687297537-XeWy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuEc2cB8sjUv8FfQtOjV24Wz5NopEwwRgc)
+
+
+---
+
 ## 🎯 Project Purpose
 
 Created in collaboration with **Bisleri International Pvt Ltd**, this project was the centerpiece of a three-day pre-marathon warm-up event. It introduced an innovative twist to traditional warm-up routines by prioritizing **controlled leg movement** and **balance** over raw speed.
@@ -89,14 +96,4 @@ Special thanks to [Amit Dhasmana](https://www.linkedin.com/in/amit-dhasmana) and
 
 ---
 
-## 📢 Live Event Post
-
-📌 [LinkedIn Post about the Bisleri Warm-Up Event](https://www.linkedin.com/posts/suman-parui-ab3613184_tcsworld10k-bengalurumarathon-bisleriwaterbottlechallenge-activity-7193551238687297537-XeWy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuEc2cB8sjUv8FfQtOjV24Wz5NopEwwRgc)
-
----
-
 **Enjoy the challenge — and stay hydrated! 💧**
-
-
-
-
